@@ -1,0 +1,17 @@
+{
+    "name": "dell/snyk-test",
+    "autoload": {
+        "psr-4": {
+            "Dell\\SnykTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AswathyAsokan-opsmx",
+            "email": "aswathy.asokan@opsmx.io"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^3.8"
+    }
+}

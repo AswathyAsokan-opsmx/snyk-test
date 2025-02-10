@@ -28,4 +28,4 @@ jobs:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
 
       - name: Run Snyk Test
-        run: snyk test
+        run: snyk test --file=composer.lock
