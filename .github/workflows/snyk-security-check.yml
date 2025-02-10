@@ -29,3 +29,6 @@ jobs:
 
       - name: Run Snyk Test
         run: snyk test --file=composer.lock
+      
+      - name: Run Snyk Monitor
+        run: snyk monitor --file=composer.lock
